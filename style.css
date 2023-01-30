@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: lightgray;
+  padding: 10px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 10px;
+  text-align: center;
+}
+
+.shirts {
+  display: flex;
+  justify-content: center;
+}
+
+.shirt {
+  text-align: left;
+  width: 33%;
+}
+
+.shirt img {
+  width: 100%;
+}
+
+footer {
+  background-color: lightgray;
+  padding: 10px;
+  text-align: center;
+}
